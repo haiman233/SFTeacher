@@ -1,16 +1,130 @@
-zhenghebao:
+sfteacher:
   lateInit: false
   type: nested
   item:
     material_type: mc
-    material: BAMBOO_SIGN
-    name: '&6&l感谢您游玩粘液科技整合包'
-  tier: 0
-zhenghebao_info:
-  lateInit: false
+    material: WRITTEN_BOOK
+    name: '&6&l粘液科技及附属教程'
+  tier: -1
+# 目前序号排到sft13
+sft0:
   type: sub
+  parent: sfteacher
   item:
+    name: "&a&l单击相应的分类会在聊天栏里给出链接，点击链接即可查看相应教程"
     material_type: skull_hash
-    material: OAK_SIGN
-    name: '&c&l本整合包是完全公开免费的'
-  parent: zhenghebao
+    material: 16439d2e306b225516aa9a6d007a7e75edd2d5015d113b42f44be62a517e574f
+sft1:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&a&l粘液科技教程"
+    material: SLIME_BALL
+  actions:
+  - "link https://slimefun-wiki.guizhanss.net/"
+  - "console msg %player% 粘液科技新手入门教程"
+sft2:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&6&l粘液科技附属教程"
+    material: SWEET_BERRIES
+  actions:
+  - "link https://slimefun-addons-wiki.guizhanss.cn/"
+  - "console msg %player% 包含神秘、bump、星际、无尽、乌托邦、网络、匠魂、末地科技、水晶编年史、农耕、emc、异域、蓬松附属"
+sft3:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&c&l粘液科技及附属视频教程（匠魂、网络、无尽、流水线）"
+    material: SLIME_BLOCK
+  actions:
+  - "link https://space.bilibili.com/6993041/upload/video"
+  - "console msg %player% b站up主 我的动力鞋"
+sft4:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&e&l粘液附属最详细的图文教程"
+    material: ENCHANTED_GOLDEN_APPLE
+  actions:
+  - "link https://www.bilibili.com/read/readlist/rl613510?spm_id_from=333.1369.opus.module_collection.click"
+  - "console msg %player% 包含至尊、动力、网络、神秘、工业、乌托邦、星际、蓬松、水晶编年史的详细图文教程"
+sft5:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&f&l乱序技艺教程"
+    material: OBSERVER
+  actions:
+  - "link https://space.bilibili.com/3546558593239930/lists/3255060?type=season"
+sft6:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&a&l乱码科技教程"
+    material: CHAIN_COMMAND_BLOCK
+  actions:
+  - "link https://space.bilibili.com/3546558593239930/lists/3261589?type=season"
+sft13:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&d&l逻辑工艺教程"
+    material: BUDDING_AMETHYST
+  actions:
+  - "link https://github.com/m1919810/LogiTech/wiki"
+  - "console msg %player% github链接，打不开的挂梯子"
+  - "link https://www.bilibili.com/video/BV1utqfYJEU5/?spm_id_from=333.337.search-card.all.click&vd_source=ce982ede1e0832bc43406d81947d0052"
+  - "console msg %player% 逻辑工艺多方块搭建教程"
+sft7:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&e&l基因工程教程"
+    material_type: skull_hash
+    material: 1638469a599ceef7207537603248a9ab11ff591fd378bea4735b346a7fae893
+  actions:
+  - "link https://www.bilibili.com/opus/785094015913558088?from=search&spm_id_from=333.337.0.0"
+  - "link https://www.bilibili.com/video/BV1LuYqeMEEv/?spm_id_from=333.337.search-card.all.click&vd_source=ce982ede1e0832bc43406d81947d0052"
+sft8:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&b&l农耕工艺教程"
+    material: AZURE_BLUET
+  actions:
+  - "link https://www.bilibili.com/opus/809658797667647490?from=search&spm_id_from=333.337.0.0"
+sft9:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&6&l美食家教程"
+    material: COOKED_BEEF
+  actions:
+  - "link https://schn.pages.dev/gastronomicon"
+  - "console msg %player% 需要挂梯子"
+sft10:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&b&l粘土科技教程"
+    material: CLAY
+  actions:
+  - "link https://www.bilibili.com/video/BV1XN41197Ed/?spm_id_from=333.1387.upload.video_card.click&vd_source=ce982ede1e0832bc43406d81947d0052"
+sft11:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&a&l太空科技教程"
+    material: DIAMOND_BLOCK
+  actions:
+  - "link https://www.bilibili.com/video/BV1DE411J7Ww/?spm_id_from=333.337.search-card.all.click&vd_source=ce982ede1e0832bc43406d81947d0052"
+sft12:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&f&l相关英文教程"
+    material: WRITABLE_BOOK
+  actions:
+  - "link https://docs.sefiraat.dev/"
