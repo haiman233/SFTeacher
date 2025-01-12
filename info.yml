@@ -1,0 +1,8 @@
+id: SFTeacher
+name: "粘液科技教程"
+depends: []
+pluginDepends: []
+version: "Release-1.0"
+description: "向粘液书中添加粘液科技教程"
+authors: ["haiman"]
+repo: "https://github.com/haiman233/SFTeacher"
