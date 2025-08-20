@@ -11,7 +11,7 @@ SFT0:
       - '&7单击相应的分类会在聊天栏里给出链接与描述，点击链接即可查看相应教程'
       - '&7'
       - '&f当前版本：'
-      - '&bRelease-1.0'
+      - '&bRelease-1.1'
       - '&7您在提issues的时候需要展示这个'
       - '&7如果有新的教程，欢迎在github上提pr'
   placeable: false
@@ -126,6 +126,24 @@ SFT12:
   recipe_type: 'NULL'
 SFT13:
   item_group: sft13
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+SFT14:
+  item_group: sft14
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+SFT15:
+  item_group: sft15
   item:
     name: "&f&l这就是一个占位符而已"
     lore:

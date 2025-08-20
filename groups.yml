@@ -23,6 +23,15 @@ sft1:
   actions:
   - "link https://slimefun-wiki.guizhanss.net/"
   - "console msg %player% 粘液科技新手入门教程"
+sft14:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&a&l粘液科技数据库"
+    material: BOOKSHELF
+  actions:
+  - "link https://hsd.hikari.bond"
+  - "console msg %player% 粘液科技数据库收集了几乎所有附属的物品信息，可更加便捷的查找某个物品/机器的来源与配方"
 sft2:
   type: button
   parent: sfteacher
@@ -41,6 +50,15 @@ sft3:
   actions:
   - "link https://space.bilibili.com/6993041/upload/video"
   - "console msg %player% b站up主 我的动力鞋"
+sft15:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&c&l粘液科技全流程视频"
+    material: SPYGLASS
+  actions:
+  - "link https://space.bilibili.com/1966538866"
+  - "console msg %player% b站up主 阿伦Carry"
 sft4:
   type: button
   parent: sfteacher
