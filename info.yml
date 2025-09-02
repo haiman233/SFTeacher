@@ -2,7 +2,24 @@ id: SFTeacher
 name: "粘液科技教程"
 depends: []
 pluginDepends: []
-version: "Release-1.1"
+version: "Release-1.1.1"
 description: "向粘液书中添加粘液科技教程"
 authors: ["haiman233"]
-repo: "https://github.com/haiman233/SFTeacher"
+repo: "haiman233/SFTeacher"
+loadStartTexts:
+- "========================================================="
+- "                 粘液科技教程 开始加载"
+- "                   作者： haiman"
+- "                  当前版本：1.1.1"
+- "                   请等待1~3分钟"
+- "             若有新版本发布，会尝试从github获取存储库"
+- " 并自动更新SFTeacher(默认开启，你可以在rsc的config文件里关闭)"
+- "          如果长时间卡住不动请尝试挂梯子或者关闭自动更新"
+- "  Bug反馈：https://github.com/haiman233/SFTeacher/issues"
+- "========================================================="
+                                                                                
+enabledTexts:
+- "==================="
+- "粘液科技教程 加载成功"
+- "感谢您使用粘液科技教程"
+- "==================="
