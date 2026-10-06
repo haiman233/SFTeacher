@@ -7,13 +7,61 @@ sfteacher:
     name: '&6&l粘液科技及附属教程'
   tier: -1
 # 目前序号排到sft13
+# 目前已经收录：
+# 1.粘液本体
+# 2.GLTC
+# 3.起源科技
+# 4.粘液wiki
+# 5.匠魂
+# 6.网络
+# 7.无尽
+# 8.ae
+# 9.阿伦全流程视频
+# 10.粘液图文教程
+#   1.至尊研究院
+#   2.动力科技
+#   3.网络
+#   4.神秘科技
+#   5.工业科技
+#   6.下界乌托邦
+#   7.星际科技
+#   8.蓬松科技
+#   9.魔法水晶编年史
+# 11.乱序技艺
+# 12.乱码科技
+# 13.逻辑工艺
+# 14.基因工程
+# 15.农耕工艺
+# 16.美食家
+# 17.粘土科技
+# 18.太空科技
+# 19.英文教程
 sft0:
-  type: sub
+  type: button
   parent: sfteacher
   item:
-    name: "&a&l单击相应的分类会在聊天栏里给出链接，点击链接即可查看相应教程"
+    name: "&f&l信息"
+    lore:
+      - '&e点击对应按钮获取教程链接！'
+      - " "
+      - '&7本附属由海曼（haiman）编写而成'
+      - '&7旨在搜集全网的粘液科技及附属教程并将其添加至粘液科技书中'
+      - '&7'
+      - '&e使用方法：'
+      - '&7单击相应的分类会在聊天栏里给出链接与描述，点击链接即可查看相应教程'
+      - '&7'
+      - '&f当前版本：'
+      - '&bRelease-1.1'
+      - '&7您在提issues的时候需要展示这个'
+      - "&72026年8月18日，海曼系列附属宣布(大概率不会继续更新)"
+      - "&7如果有新的教程需要添加，或者教程链接失效"
+      - '&7欢迎联系我(ykcgly)的qq：1424136122'
+      - "&7或者直接在github提起pr或者issue"
+      - "&7点我获取仓库地址"
     material_type: skull_hash
     material: 16439d2e306b225516aa9a6d007a7e75edd2d5015d113b42f44be62a517e574f
+  actions:
+  - "link https://github.com/haiman233/SFTeacher"
 sf_new:
   type: button
   parent: sfteacher
@@ -27,7 +75,8 @@ sft1:
   parent: sfteacher
   item:
     name: "&a&l粘液科技教程"
-    lore: "&7粘液科技新手入门教程"
+    lore: 
+      - "&7粘液科技新手入门教程"
     material: SLIME_BALL
   actions:
   - "link https://slimefun-wiki.guizhanss.net/"
@@ -36,7 +85,8 @@ sf_gltc:
   parent: sfteacher
   item:
     name: "&#e017e8G&#cb12f2L&#b70efcT&#9b22ffC&#7c3fff联&#5d5bff合&#4c78ff协&#4b95ff议&7-&e教程"
-    lore: "&7月砧力作，前往主页查看更多教程"
+    lore: 
+      - "&7月砧力作，前往主页查看更多教程"
     material_type: skull_hash
     material: 9d3d250e25bbca3a62be5b3ef02cfcab6dcdc424884c9a7d5cc95c9d0
   actions:
@@ -45,7 +95,7 @@ sf_qiyuan:
   type: button
   parent: sfteacher
   item:
-    name: "&6&l起源科技教程"
+    name: "&x&e&c&7&f&0&0起&x&e&e&9&e&0&7源&x&f&0&b&d&0&f工&x&f&2&d&c&1&6艺&b教程"
     material: GRASS_BLOCK
   actions:
   - "link https://www.bilibili.com/video/BV1YWa36MEGe/?spm_id_from=333.337.search-card.all.click&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
@@ -54,7 +104,8 @@ sft2:
   parent: sfteacher
   item:
     name: "&6&l粘液科技附属教程"
-    lore: "&7包含神秘、bump、星际、无尽、乌托邦、网络、匠魂、末地科技、水晶编年史、农耕、emc、异域、蓬松附属"
+    lore: 
+      - "&7包含神秘、bump、星际、无尽、乌托邦、网络、匠魂、末地科技、水晶编年史、农耕、emc、异域、蓬松附属"
     material: SWEET_BERRIES
   actions:
   - "link https://slimefun-addons-wiki.guizhanss.cn/"
@@ -63,16 +114,39 @@ sft3:
   parent: sfteacher
   item:
     name: "&c&l粘液科技及附属视频教程（匠魂、网络、无尽、流水线）"
-    lore: "&7b站up主 我的动力鞋"
+    lore: 
+      - "&7b站up主 我的动力鞋"
     material: SLIME_BLOCK
   actions:
   - "link https://space.bilibili.com/6993041/upload/video"
+sf_ae2:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&b&lAE2教程"
+    material: GRAY_STAINED_GLASS
+  actions:
+  - "link https://www.bilibili.com/video/BV1esVT6jEnS/?spm_id_from=333.1387.homepage.video_card.click&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
+  - "link https://www.bilibili.com/video/BV1pGjT6KEoh/?spm_id_from=333.337.search-card.all.click&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
+sf_komu:
+  type: button
+  parent: sfteacher
+  item:
+    name: "{#00FA9A}&kA{#2DFBAE}&l口{#5AFCC2}&l木{#86FDD7}&l科{#B3FEEB}&l技{#E0FFFF}&kA&r&b教程"
+    lore: 
+      - "&7第一个为作者本人发布的视频"
+    material_type: skull_hash
+    material: 2a06b7ef30db3cd6a869e015e59913e4dfc9212688c281fab18b1f2938fc9f42
+  actions:
+  - "link https://www.bilibili.com/video/BV1kdLc6mE4j/?spm_id_from=333.337.search-card.all.click&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
+  - "link https://www.bilibili.com/video/BV1VvLx6uERL/?spm_id_from=333.1387.homepage.video_card.click&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
 sft15:
   type: button
   parent: sfteacher
   item:
     name: "&c&l粘液科技全流程视频"
-    lore: "&7b站up主 阿伦Carry"
+    lore: 
+      - "&7b站up主 阿伦Carry"
     material: SPYGLASS
   actions:
   - "link https://space.bilibili.com/1966538866"
@@ -81,7 +155,8 @@ sft4:
   parent: sfteacher
   item:
     name: "&e&l粘液附属最详细的图文教程"
-    lore: "&7包含至尊、动力、网络、神秘、工业、乌托邦、星际、蓬松、水晶编年史的详细图文教程"
+    lore: 
+      - "&7包含至尊、动力、网络、神秘、工业、乌托邦、星际、蓬松、水晶编年史的详细图文教程"
     material: ENCHANTED_GOLDEN_APPLE
   actions:
   - "link https://www.bilibili.com/read/readlist/rl613510?spm_id_from=333.1369.opus.module_collection.click"
@@ -98,10 +173,11 @@ sft6:
   type: button
   parent: sfteacher
   item:
-    name: "&a&l乱码科技教程"
+    name: "&a&l乱码科技教程&毕业流程"
     material: CHAIN_COMMAND_BLOCK
   actions:
   - "link https://space.bilibili.com/3546558593239930/lists/3261589?type=season"
+  - - "link https://www.bilibili.com/video/BV15qE26uETq/?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2589621-kz84p.1791301028231.873&vd_source=f8ef1ce3bbb5050f87d12742c05d23d1"
 sft13:
   type: button
   parent: sfteacher
@@ -110,7 +186,7 @@ sft13:
     lore: 
       - "&7注意github链接需要挂梯子才能打开"
       - "&7悲报：逻辑删库了"
-      - "&7现逻辑仓库在以下第三个链接"
+      - "&7现逻辑仓库在以下第2个链接"
     material: BUDDING_AMETHYST
   actions:
   - "link https://www.bilibili.com/video/BV1utqfYJEU5/?spm_id_from=333.337.search-card.all.click&vd_source=ce982ede1e0832bc43406d81947d0052"
@@ -138,7 +214,8 @@ sft9:
   parent: sfteacher
   item:
     name: "&6&l美食家教程"
-    lore: "&7需要挂梯子"
+    lore: 
+      - "&7需要挂梯子"
     material: COOKED_BEEF
   actions:
   - "link https://schn.pages.dev/gastronomicon"
