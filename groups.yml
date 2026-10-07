@@ -80,6 +80,17 @@ sft1:
     material: SLIME_BALL
   actions:
   - "link https://slimefun-wiki.guizhanss.net/"
+sf_guide:
+  type: button
+  parent: sfteacher
+  item:
+    name: "&a&l纯文本粘液科技指南"
+    lore: 
+      - "&7一份有趣的粘液科技新手入门教程"
+      - "&7可能需要挂梯子"
+    material: OAK_SAPLING
+  actions:
+  - "link https://github.com/1368139692/SFGuide"
 sf_gltc:
   type: button
   parent: sfteacher
