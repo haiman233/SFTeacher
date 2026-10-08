@@ -11,13 +11,6 @@
 ![当前版本](https://img.shields.io/github/v/release/haiman233/SFTeacher?include_prereleases)
 ![下载数](https://img.shields.io/github/downloads/haiman233/SFTeacher/total)
 
-## 前置插件需求
-
-软前置：
-- CMI
-
-（请确保服务器有msg指令）
-
 ## 关于教程的补充
 
 如果有需要补充的教程，可以在issues中提出，并附上链接
